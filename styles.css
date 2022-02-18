@@ -41,6 +41,15 @@ nav img{
     row-gap: 50px;
 }
 
+.holder:hover{
+    cursor: pointer;
+}
+
+.back-to-top{
+    display: flex;
+    justify-content: center;
+}
+
 /* Landing page */
 .carousel{
     height: 75vh;
