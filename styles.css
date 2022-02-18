@@ -15,3 +15,8 @@ nav{
 .push-left{
     padding-right: 30%;
 }
+
+.holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
