@@ -91,6 +91,10 @@ input{
     background-color: #002198da;
 }
 
+.contact-footer{
+    color: rgba(0, 0, 0, 0.753);
+}
+
 /* About */
 
 .About h1{
