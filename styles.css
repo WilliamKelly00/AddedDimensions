@@ -46,7 +46,7 @@ nav img{
     width: 35%;
 }
 
-img:hover{
+.holder img:hover{
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.329);
     -webkit-transition-property: all;
