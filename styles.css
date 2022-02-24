@@ -64,12 +64,18 @@ input{
     border: 1px solid rgb(68, 68, 68);
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .form{
     margin: auto;
     padding-top: 3%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 50%;
+    width: 30%;
 }
 
 .styled-input {
