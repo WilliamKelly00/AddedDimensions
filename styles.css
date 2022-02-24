@@ -39,10 +39,28 @@ nav img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     row-gap: 50px;
+    column-gap: 100px;
 }
 
-.holder:hover{
+.work{
+    width: 35%;
+}
+
+img:hover{
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.329);
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
 }
 
 .back-to-top{
